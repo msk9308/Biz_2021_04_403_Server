@@ -1,0 +1,28 @@
+package com.callor.todo.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/")
+public class FrontController extends HttpServlet {
+
+	// FrontController가 최초 호출 될 때
+	// 한번 실행되어서 여러가지 변수 등을 초기화 하는코드
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+
+	}
+	
+	//doGet(),doPost()로 분리하여 요청을 처리하던 방식을 하나의 method에서 동시에 처리
+	@Override
+	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
+
+	}
+
+}

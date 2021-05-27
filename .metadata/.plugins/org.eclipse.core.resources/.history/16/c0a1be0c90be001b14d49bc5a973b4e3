@@ -1,0 +1,52 @@
+package com.callor.todo.service.impl;
+
+import java.util.List;
+import java.util.Map;
+
+import com.callor.todo.service.TodoService;
+
+public class TodoServiceImplV1 implements TodoService {
+
+	@Override
+	public List<Map<String, Object>> selectAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Map<String, Object> findById(Long td_seq) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Map<String, Object>> findBySDate(String td_sdate) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Map<String, Object>> findByDoit(String td_doit) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Integer insert(<Map<String, Object> tdVO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Integer update(<Map<String, Object> tdVO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Integer delete(Long td_seq) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

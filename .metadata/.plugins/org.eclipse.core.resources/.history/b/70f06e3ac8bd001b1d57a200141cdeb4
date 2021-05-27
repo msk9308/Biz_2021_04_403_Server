@@ -1,0 +1,16 @@
+package com.callor.todo.command;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ReqCommand {
+	
+	private static final String prefix = " /WEB-INF/views/";
+	private static final String surfix = ".jsp";
+	
+	public static void forward(HttpServletRequest req, HttpServletResponse resp, String file) {
+		
+		
+	}
+
+}

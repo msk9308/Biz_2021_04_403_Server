@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;BookService.java&apos; to &apos;Server_004_DB/src/main/java/com.callor.db.service&apos;&#x0D;&#x0A;- Original project: &apos;Server_004_DB&apos;&#x0D;&#x0A;- Destination element: &apos;Server_004_DB/src/main/java/com.callor.db.service&apos;&#x0D;&#x0A;- Original element: &apos;com.callor.db.controller.BookService.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.callor.db.service" element1="/src\/main\/java&lt;com.callor.db.controller{BookService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1619670717808" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package com.callor.todo.command;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ReqCommand {
+
+	public static void forward(HttpServletRequest req, HttpServletResponse resp, String file) {
+		
+		
+	}
+
+}

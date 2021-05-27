@@ -1,0 +1,15 @@
+package com.callor.todo.service;
+
+public interface TodoService {
+	
+	public void selectAll();
+	public void findById();
+	
+	public void findBySDate();
+	public void findByDoit();
+	
+	public void insert();
+	public void update();
+	public void delete();
+
+}

@@ -1,0 +1,19 @@
+package com.callor.maven.config;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class MySQLDBConnection {
+	
+	private static Connection dbConn;
+	
+	String jdbcDriver = "com.mysql.cj.jdbc.Driver";
+	String url = "jdbc:mysql://127.0.0.1:3306/guestbook";
+	String username = "gbUser";
+	String password = "12345";
+	
+	
+	dbConn = DriverManager.getConnection(url,username,password);
+	
+
+}

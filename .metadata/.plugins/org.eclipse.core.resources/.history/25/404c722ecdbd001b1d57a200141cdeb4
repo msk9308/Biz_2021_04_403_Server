@@ -1,0 +1,14 @@
+package com.callor.todo.exec;
+
+public class Map_01 {
+	
+	/*
+	 * Map<K,V>
+	 * List 데이터와 함께
+	 * Java에서 매우 많이 사용되는 자료 구조
+	 * 
+	 * Key, Value 형식으로 데이터를 저장하고
+	 * 읽을 수 있는 자료구조
+	 */
+
+}
