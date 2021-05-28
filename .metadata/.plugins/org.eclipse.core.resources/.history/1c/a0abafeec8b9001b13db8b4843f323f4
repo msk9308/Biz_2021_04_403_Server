@@ -1,5 +1,0 @@
-package com.callor.maven.config;
-
-public class MySQLDBConnection {
-
-}
